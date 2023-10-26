@@ -34,7 +34,13 @@ void DrawMain()
     DrawText("Hello, world!!", -12*14/2, -44, kColorRed);
     Sleep(0.5f);
     DrawText("Hello, world!!", -12*14/2, -66, kColorGray);
+    
+    //1026変更茂川
+    for (int x = -100; x <= 100; x+=10) {
+        DrawCircle(x, 0, 150, kColorYellow);
+    }
 }
 
 //ああああああああ
 //いいいいい
+
